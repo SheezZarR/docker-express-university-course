@@ -1,0 +1,78 @@
+@font-face {
+    font-family: "Articulat CF Thin";
+    src: url(./fonts/ArticulatCF-Thin.ttf);
+}
+
+body {
+    background-color: rgb(44, 37, 63);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+}
+
+.pride-wrap {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-auto-flow: row;
+    height: 100%;
+    width: 100%;
+}
+
+.pride-wrap > div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pride-red {
+    background-color: red;
+}
+
+.pride-orange {
+    background-color: orange;
+}
+
+.pride-yellow {
+    background-color: yellow;
+}
+
+.pride-yellow {
+    color: red;
+}
+
+.pride-green {
+    background-color: green;
+}
+
+.pride-blue {
+    background-color: blue;
+}
+
+.flags {
+    letter-spacing: calc(0em + 20px);
+}
+
+.pride-violet {
+    background-color: purple;
+    gap: 25%;
+}
+
+
+p {
+    display: block;
+    margin: 0;
+    font-family: "Articulat CF Thin";
+    font-size: 58px;
+    text-align: center;
+}
+
+a {
+    color: rgba(138, 147, 190, 0.877);
+}

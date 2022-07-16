@@ -1,0 +1,73 @@
+@font-face {
+    font-family: "Articulat CF Heavy";
+    src: url(./fonts/ArticulatCF-Heavy.ttf);
+}
+
+@font-face {
+    font-family: "Articulat CF Thin";
+    src: url(./fonts/ArticulatCF-Thin.ttf);
+}
+
+body {
+    background-color: rgb(44, 37, 63);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+}
+
+body > * {
+    display: block;
+}
+
+.pretty-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.pretty-text > p {
+    font-size: 48px;
+    margin: 0;
+    font-style: italic;
+}
+
+.pretty-text > p:first-child {
+    text-align: start;
+    margin-left: 10px;
+}
+
+.pretty-text > p:last-child {
+    text-align: end;
+    margin-right: 10px;
+}
+
+
+h1 {
+    font-size: 128px;
+    font-family: "Articulat CF Heavy";
+    margin: 0;
+}
+
+p {
+    font-size: 32px;
+    font-family: "Articulat CF Thin";
+}
+
+.smol-p {
+    font-size: 10px;
+    color: rgba(255, 255, 255, 0.452);
+    margin: 0;
+    margin-bottom: 120px;
+}
+
+.p-link {
+    margin-bottom: 0;
+}
+
+a {
+    color: rgba(138, 147, 190, 0.877);
+}
